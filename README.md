@@ -67,7 +67,17 @@ Aplikasi MangaDise memiliki **3 tab navigasi utama** yang berada di bagian bawah
 
 ## 🧪 Cara Menjalankan Proyek di Lokal
 
-### 1. Clone Repository
+### 1. Clone Repository Proyek Frontend
 ```bash
-git clone <repository_url>
+git clone <https://github.com/lidan-id/MangaDise.git>
 cd MangaDise
+```
+Isi file .env dengan API_BASE_URL = https://mangadise-189618515880.asia-southeast2.run.app/
+
+### 2. Jalankan Projek
+```bash
+npm start
+```
+
+
+
