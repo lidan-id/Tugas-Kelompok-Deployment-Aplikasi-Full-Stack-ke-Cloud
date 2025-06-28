@@ -32,15 +32,36 @@ Aplikasi ini menggunakan pendekatan full-stack berbasis cloud:
 - **Penyimpanan Media**: Gambar komik disimpan di **Google Cloud Storage**.
 - **Deployment**: Dilakukan secara manual melalui Google Cloud CLI tanpa pipeline CI/CD.
 
-
 ---
 
-## 🚀 Cara Menggunakan Aplikasi
+## 📲 Cara Menggunakan Aplikasi
 
-- 📖 **Lihat Daftar Komik**: Menampilkan semua komik yang tersedia.
-- 📚 **Baca Episode**: Membaca komik berdasarkan episode dengan tampilan gambar.
-- ❤️ **Fitur Bookmark**: Menyimpan komik favorit.
-- 🔐 **Login/Registrasi**: Akses fitur personalisasi dan histori baca komik.
+### 1. Registrasi dan Login
+- Pengguna yang belum memiliki akun wajib melakukan **registrasi** terlebih dahulu.
+- Setelah berhasil registrasi, lanjutkan dengan **login** untuk masuk ke dalam aplikasi.
+
+### 2. Navigasi Utama Aplikasi
+Aplikasi MangaDise memiliki **3 tab navigasi utama** yang berada di bagian bawah layar:
+
+#### 🔹 Home (Tengah)
+- Menampilkan daftar komik yang tersedia untuk dibaca.
+- Klik salah satu komik untuk membuka **halaman detail**, yang berisi:
+  - Deskripsi singkat komik.
+  - Informasi genre.
+  - Tombol untuk **menambahkan ke favorit**.
+  - Daftar **chapter** yang bisa dipilih untuk membaca.
+- Terdapat fitur **pencarian komik** berdasarkan judul di bagian atas halaman Home.
+
+#### ❤️ Favorite (Kiri)
+- Menampilkan komik-komik yang telah ditandai sebagai **favorit** oleh pengguna.
+- Komik favorit dapat diakses langsung tanpa perlu mencarinya kembali.
+
+#### 👤 Profile (Kanan)
+- Menampilkan informasi akun:
+  - **Nama pengguna**.
+  - **Foto profil** (dapat diubah).
+  - **Jumlah poin** pengguna.
+- Tersedia tombol **Logout** untuk keluar dari akun.
 
 ---
 
