@@ -74,14 +74,16 @@ cd MangaDise
 ```
 Isi file .env dengan API_BASE_URL = https://mangadise-189618515880.asia-southeast2.run.app/
 
-### 2. Jalankan Projek
+### 2. Jalankan Proyek
 ```bash
 npm start
 ```
 
-### 2. Clone Repository Backend (optional)
+### 3. Clone Repository Backend dan Install Proyek (optional)
 ```bash
-git clone https://github.com/lidan-id/MangaDise.git
+git clone https://github.com/JeffreyChandra/Mangadise_Backend
+npm install
+npm start
 ```
 
 
