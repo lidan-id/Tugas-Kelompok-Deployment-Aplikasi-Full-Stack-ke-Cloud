@@ -69,7 +69,7 @@ Aplikasi MangaDise memiliki **3 tab navigasi utama** yang berada di bagian bawah
 
 ### 1. Clone Repository Proyek Frontend
 ```bash
-git clone <https://github.com/lidan-id/MangaDise.git>
+git clone https://github.com/lidan-id/MangaDise.git
 cd MangaDise
 ```
 Isi file .env dengan API_BASE_URL = https://mangadise-189618515880.asia-southeast2.run.app/
@@ -79,5 +79,9 @@ Isi file .env dengan API_BASE_URL = https://mangadise-189618515880.asia-southeas
 npm start
 ```
 
+### 2. Clone Repository Backend (optional)
+```bash
+git clone https://github.com/lidan-id/MangaDise.git
+```
 
 
